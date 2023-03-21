@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';import SwipeableViews from 'react-swip
 import  {autoPlay}  from 'react-swipeable-views-utils';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
+import Example from './example';
 
 import Music from './Music'
 
@@ -56,6 +57,7 @@ function MusicCarousel() {
   return (
     <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
 <Music/>
+<Example></Example>
     </Box>
   );
 };

@@ -1154,6 +1154,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@brainhubeu/react-carousel@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-2.0.4.tgz#9b3d3e9699fca1617530e4cd242d6ef99a671917"
+  integrity sha512-FeN4IL0xg2Ld2YC7zk2asnIbECfsaV9ryiHE3KaDRy3VRPKhAdwAcsrUR4u0lzFMghzGIwtrnIfMnYjczwjAdg==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -9723,6 +9728,11 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-carousel-vertical@^1.10.27:
+  version "1.10.27"
+  resolved "https://registry.yarnpkg.com/react-carousel-vertical/-/react-carousel-vertical-1.10.27.tgz#330be9c99d5bb0ec8c6aff99e17021440c8f9f27"
+  integrity sha512-Owu4yvCtVA5/YGOiP8SpzPhZ5uMJk/UkBWPmQetuLsGcjWMXD5Rdrfri4Z4Ap3U78ACRmUt9/kfI3+L9tHsMDw==
 
 react-dev-utils@^11.0.3:
   version "11.0.4"

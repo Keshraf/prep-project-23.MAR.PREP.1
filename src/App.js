@@ -3,9 +3,8 @@ import "./App.css";
 import logo from "./mlh-prep.png";
 import Suggestion from "./components/Suggestions/Suggestion";
 import Autocomplete from "./components/Autocomplete";
-import MusicCarousel from "./components/Carousel/MusicCarousel";
+import EmojiCarousel from "./components/Carousel/EmojiCarousel";
 import { Stack } from "@mui/system";
-import Example from "./components/Carousel/example";
 
 function App() {
   const [error, setError] = useState(null);
@@ -170,14 +169,8 @@ function App() {
         width='100%'
         justifyContent={'center'}
         alignItems='center'>
-          <MusicCarousel></MusicCarousel>
+          <EmojiCarousel></EmojiCarousel>
         </Stack>
-
-<div className="carousel">
-          <Example></Example>
-</div>
-         
-           
 
       </>
     );

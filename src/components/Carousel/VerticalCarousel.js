@@ -9,6 +9,7 @@ const Wrapper = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
+  scale: 0.5;
 `;
 
 const NavigationButtons = styled.div`
@@ -17,15 +18,15 @@ const NavigationButtons = styled.div`
 
   height: 60px;
   margin: 0 auto;
-  width: 20%;
+  width: 70%;
   margin-top: 1rem;
-  justify-content: space-between;
   z-index: 1000;
 `;
 
 const NavBtn = styled.div`
   background: white;
   padding: 15px;
+  margin-right: 20px;
   margin-bottom: 10px;
   border-radius: 3px;
 `;

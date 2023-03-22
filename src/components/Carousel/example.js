@@ -56,14 +56,11 @@ export default class Example extends Component {
     return (
       <div
         style={{
-          position: "fixed",
+          position: "relative",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          width: "100vw",
-          height: "100vh",
-          margin: "0 auto",
-          background: "#7FfFbF"
+          height:'50vh',
         }}
       >
         <VerticalCarousel

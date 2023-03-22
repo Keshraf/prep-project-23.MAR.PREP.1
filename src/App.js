@@ -5,6 +5,7 @@ import Suggestion from "./components/Suggestions/Suggestion";
 import Autocomplete from "./components/Autocomplete";
 import MusicCarousel from "./components/Carousel/MusicCarousel";
 import { Stack } from "@mui/system";
+import Example from "./components/Carousel/example";
 
 function App() {
   const [error, setError] = useState(null);
@@ -172,6 +173,10 @@ function App() {
           <MusicCarousel></MusicCarousel>
         </Stack>
 
+<div className="carousel">
+          <Example></Example>
+</div>
+         
            
 
       </>

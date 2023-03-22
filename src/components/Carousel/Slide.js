@@ -5,8 +5,8 @@ import { withGesture } from "react-with-gesture";
 
 const SlideContainer = styled.div`
   position: absolute;
-  height: 70%;
-  top: 50%;
+  height: 100%;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
